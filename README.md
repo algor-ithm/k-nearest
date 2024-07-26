@@ -50,4 +50,40 @@ The `sklearn` library is then utilized to perform k-nearest neighbors classifica
 2. Fitting the model to the training dataset.
 3. Making predictions and comparing them with the from-scratch implementation.
 
+## Results
 
+The results section compares the predictions made by the from-scratch implementation and the `sklearn` model, highlighting any differences and similarities. It includes performance metrics such as accuracy, precision, recall, and F1-score.
+
+## Dependencies
+
+- Python 3.x
+- Jupyter Notebook
+- numpy
+- pandas
+- matplotlib
+- sklearn
+
+Install the dependencies using:
+```bash
+pip install numpy pandas matplotlib sklearn jupyter
+```
+
+## Usage 
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/k-nearest.git
+```
+
+2. Navigate to project directory:
+
+```bash
+cd k-nearest
+```
+
+3. Open the Jupyter notebook:
+
+```bash
+jupyter notebook kNN.ipynb
+```
