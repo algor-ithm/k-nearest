@@ -20,3 +20,34 @@ This project demonstrates the implementation of a k-nearest neighbors (kNN) mode
 - [Contributing](#contributing)
 
 ## Project Structure
+
+- `kNN.ipynb`: Jupyter Notebook containing the implementation of the kNN model from scratch and using `sklearn`.
+- `data_banknote_authentication.txt`: Dataset file.
+- `README.md`: Project documentation.
+
+## Dataset
+
+The data used is `data_banknote_authentication.txt`, which contains features extracted from images of banknotes using wavelet transform tools. The columns in the dataset are:
+- `Variance of Wavelet Transformed image` (continous)
+- `Skewness of Wavelet Transformed image` (continuous)
+- `Kurtosis of Wavelet Transformed image` (continuous)
+- `Entropy of image` (continuous)
+- `Class` (integer): 0 for authentic, 1 for counterfeit
+
+## Implementation
+
+### From Scratch 
+
+The k-nearest neighbors (kNN) model is first implemented from scratch using Python. The process involves:
+1. Calculating the Euclidean distance between the test data point and all training data points.
+2. Sorting the distances and selecting the k-nearest neighbors.
+3. Performing majority voting to classify the test data point.
+
+### Using sklearn
+
+The `sklearn` library is then utilized to perform k-nearest neighbors classification on the same dataset. The steps include:
+1. Importing the `KNeighborsClassifier` model from `sklearn`.
+2. Fitting the model to the training dataset.
+3. Making predictions and comparing them with the from-scratch implementation.
+
+
