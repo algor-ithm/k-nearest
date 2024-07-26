@@ -87,3 +87,18 @@ cd k-nearest
 ```bash
 jupyter notebook kNN.ipynb
 ```
+
+4. Run the cells in the notebook to see the implementation and results.
+
+## Resources
+
+- **Dr. Hyuk Cho**: Provided guidance, resources, and code snippets for the project.
+- [k-Nearest Neighbors Algorithm in Python and scikit-learn](https://realpython.com/knn-python/)
+- [k-Nearest Neighbors From Scratch in Python](https://machinelearningmastery.com/tutorial-to-implement-k-nearest-neighbors-in-python-from-scratch/
+)
+- [Introduction to k-Nearest Neighbors: A powerful Machine Learning Algorithm](https://towardsdatascience.com/introduction-to-k-nearest-neighbors-3b534bb11d26)
+
+
+## Contributing 
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes. 
